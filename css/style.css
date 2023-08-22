@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk";
+}
+
+body{
+    font-size: 16px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+button{
+    background: 0;
+    border: 0;
+}
+
+.secundary-button{
+    padding: 20px 35px;
+    border: 1px solid #000000;
+    font-size: 20px;
+    line-height: 28px;
+    border-radius: 14px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
