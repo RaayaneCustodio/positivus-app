@@ -28,6 +28,15 @@ button{
     border: 0;
 }
 
+.primary-button{
+    padding: 20px 35px;
+    background: #000000;
+    font-size: 20px;
+    line-height: 28px;
+    border-radius: 14px;
+    color: white;
+}
+
 .secundary-button{
     padding: 20px 35px;
     border: 1px solid #000000;
@@ -54,4 +63,35 @@ button{
     justify-content: space-between;
     align-items: center;
 }
+
+.hero-section{
+    padding: 72px 0;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 110px;
+}
+
+.hero-text h1{
+    font-size: 60px;
+    font-weight: medium;
+    margin-bottom: 35px;
+}
+
+.hero-text p{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 35px;
+}
+
+.hero-logos{
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
