@@ -5,6 +5,10 @@
     font-family: "Space Grotesk";
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-size: 16px;
 }
@@ -56,6 +60,9 @@ button{
     justify-content: space-between;
     align-items: center;
     height: 96px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
 }
 
 .header-nav{
@@ -93,5 +100,34 @@ button{
     align-items: center;
     justify-content: space-between;
 }
+
+
+.service-section{
+    padding: 272px 0;
+    height: 100vh; 
+}
+
+.service-text{
+    display: flex;
+    align-items: center;
+}
+
+.service-text h2{  
+    width: 182px;
+    height: 54px; 
+    top: 0; 
+    font-size: 2vw;
+    text-align: center;
+    font-weight: medium;
+    background-color: #B9FF66;
+    margin-right: 40px;
+
+}
+
+.service-text p{
+    width: 602px;
+
+}
+
 
 
